@@ -1,0 +1,138 @@
+{
+  "id": "a2049742-f805-4f9d-9331-6c01905da05b",
+  "order_number": "NAN1602452969-ESC",
+  "created_on": "2024-03-15T22:51:38.622458",
+  "due_date": null,
+  "client": {
+    "id": "2d3a44ec-19e6-4443-93be-4c108687e2bd",
+    "first_name": null,
+    "last_name": null,
+    "email": "abc@test.com",
+    "account_type": "",
+    "client_internal_id": null,
+    "client_external_id": null,
+    "is_active": true,
+    "company_name": "test",
+    "ead_active": true,
+    "ucdp_active": false,
+    "address_1": "abc",
+    "city": "Fishers Island",
+    "state": "NY",
+    "zip": "34452",
+    "avatar_link": "https://api.dicebear.com/6.x/initials/svg?seed=None%20None"
+  },
+  "client_on_report": {
+    "id": "2d3a44ec-19e6-4443-93be-4c108687e2bd",
+    "first_name": null,
+    "last_name": null,
+    "email": "abc@test.com",
+    "account_type": "",
+    "client_internal_id": null,
+    "client_external_id": null,
+    "is_active": true,
+    "company_name": "test",
+    "ead_active": true,
+    "ucdp_active": false,
+    "address_1": "abc",
+    "city": "Fishers Island",
+    "state": "NY",
+    "zip": "34452",
+    "avatar_link": "https://api.dicebear.com/6.x/initials/svg?seed=None%20None"
+  },
+  "external_id": null,
+  "source": "manual",
+  "order_status": {
+    "status": "Processing"
+  },
+  "product": null,
+  "reviews": [
+    {
+      "id": "ebd4aff2-550a-42e1-8b9f-7671bac13495",
+      "review_version_number": 1,
+      "assigned_to_reviewer": {
+        "user": {
+          "company_name": null,
+          "email": "jwilcox@nan-amc.com",
+          "first_name": "Jesse",
+          "last_name": "Wilcox",
+          "user_name": null,
+          "phone_number": null,
+          "mfa": null,
+          "is_manager": false,
+          "email_verified": false,
+          "disabled": false,
+          "external_id": "j4kPl3Ssl4M11FG9iZZebqWZLtg1",
+          "set_password_token": "3624876ffa972b621843c5744228fa41620be72cd1499daa3bd513ad276bfef9",
+          "id": "da45ce87-e53f-4ad8-8ce2-703ae3aba6fe",
+          "role": null,
+          "is_active": false,
+          "is_archived": false,
+          "public_image": null,
+          "is_out_of_office": null,
+          "avatar_link": "https://api.dicebear.com/6.x/initials/svg?seed=Jesse%20Wilcox"
+        },
+        "id": "94b0bb12-bb37-4a96-9b5b-03e1a6ac1ed6"
+      },
+      "assigned_to_vendor": null,
+      "review_document": [
+        {
+          "id": "7e026883-ed63-409c-bb36-bb7b77bbf3a4",
+          "name": "NAN1602452969-ESC.pdf",
+          "doc_type": "Appraisal",
+          "review_document_type": {
+            "id": "aa129615-4212-46dc-b0fb-368fe10678cf",
+            "description": "PDF file types.",
+            "name": "application/pdf"
+          },
+          "created_on": "2024-03-15T22:51:38.733009"
+        }
+      ],
+      "review_findings": [
+        {
+          "id": "90a76d8b-2f22-401f-afc5-1d4329793ee1",
+          "finding_text1": "Unable to verify property address against USPS database",
+          "finding_text2": null,
+          "comment": null,
+          "reviewer_comment": null,
+          "reviewer_comment_date": null,
+          "commented_by": null,
+          "review_form_id": null,
+          "line_number": null,
+          "review_finding_status": null,
+          "review_finding_type": {
+            "id": "e2b7c7f3-05dc-4dd8-9b44-9d0d8c060d14",
+            "name": "USPS",
+            "description": "Defines invalid address of order "
+          },
+          "xpath": null,
+          "mfg_id": null,
+          "updated_on": "2024-03-15T22:51:38.743251"
+        }
+      ],
+      "review_form": [],
+      "review_image": [],
+      "order_address_verification": false,
+      "address_1": "2759 SAGEDALE DR",
+      "address_2": null,
+      "city": "Haines",
+      "state": "AK",
+      "zip": "33333",
+      "loan_number": "a",
+      "borrower_name": "a",
+      "loan_type": "Conventional",
+      "fha_case_number": null,
+      "order_purpose_type": "Other",
+      "is_ead_submitted": false,
+      "is_ucdp_submitted": false
+    }
+  ],
+  "appraiser_first_name": null,
+  "appraiser_last_name": null,
+  "appraiser_created_date": null,
+  "appraisal_file_name": null,
+  "appraisal_file_path": null,
+  "conversion_status": "Processing",
+  "ead_appraisal_no": null,
+  "ucdp_appraisal_no": null,
+  "appraiser_avatar_link": "https://api.dicebear.com/6.x/initials/svg?seed=None%20None"
+}

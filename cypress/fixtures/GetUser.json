@@ -1,0 +1,66 @@
+{
+  "role": "Admin",
+  "user_data": {
+    "first_name": "Admin",
+    "last_name": "automation",
+    "email": "baliwekaulu-3236@yopmail.com",
+    "is_active": false,
+    "disabled": false,
+    "is_archived": false,
+    "phone_number": null,
+    "is_manager": false,
+    "is_out_of_office": false,
+    "work_timings": [
+      {
+        "id": "e316054e-c32a-4bbc-83a3-25eadac9b68f",
+        "day_of_week": "Monday",
+        "start_time": "06:00:00",
+        "end_time": "15:00:00",
+        "user_id": "4b68aa50-f3a4-4638-9aee-a4230b7a3806",
+        "is_standard": true,
+        "is_active": true,
+        "day_changed": false
+      },
+      {
+        "id": "109e00a3-e7da-4be5-b0cc-88904e229996",
+        "day_of_week": "Tuesday",
+        "start_time": "06:00:00",
+        "end_time": "15:00:00",
+        "user_id": "4b68aa50-f3a4-4638-9aee-a4230b7a3806",
+        "is_standard": true,
+        "is_active": true,
+        "day_changed": false
+      },
+      {
+        "id": "e92ae304-425d-4aed-ba25-7725847f4f10",
+        "day_of_week": "Wednesday",
+        "start_time": "06:00:00",
+        "end_time": "15:00:00",
+        "user_id": "4b68aa50-f3a4-4638-9aee-a4230b7a3806",
+        "is_standard": true,
+        "is_active": true,
+        "day_changed": false
+      },
+      {
+        "id": "c0cf3a30-ac60-4470-8e69-e7b237535207",
+        "day_of_week": "Thursday",
+        "start_time": "06:00:00",
+        "end_time": "15:00:00",
+        "user_id": "4b68aa50-f3a4-4638-9aee-a4230b7a3806",
+        "is_standard": true,
+        "is_active": true,
+        "day_changed": false
+      },
+      {
+        "id": "40cdb7b9-0e29-4751-8a03-454db81680b0",
+        "day_of_week": "Friday",
+        "start_time": "06:00:00",
+        "end_time": "15:00:00",
+        "user_id": "4b68aa50-f3a4-4638-9aee-a4230b7a3806",
+        "is_standard": true,
+        "is_active": true,
+        "day_changed": false
+      }
+    ]
+  }
+}
