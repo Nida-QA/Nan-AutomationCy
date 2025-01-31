@@ -1,0 +1,37 @@
+{
+  "name": "nan-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run:client-profile": "npx cypress run --env ENV='staging' --browser chrome --headed --spec cypress/e2e/UI/ClientProfile --no-exit",
+    "cypress:run:login-test-cases": "npx cypress run --env ENV='staging' --browser chrome --headed --spec cypress/e2e/UI/LoginTestCases --no-exit",
+    "cypress:run:rule-engine": "npx cypress run --env ENV='staging' --browser chrome --headed --spec cypress/e2e/UI/RuleEngine --no-exit",
+    "cypress:run:user-management": "npx cypress run --env ENV='staging' --browser chrome --headed --spec cypress/e2e/UI/UserManagement --no-exit",
+    "tests": "npm run cypress:run:client-profile && npm run cypress:run:login-test-cases && npm run cypress:run:rule-engine && npm run cypress:run:user-management",
+    "seqtests": "npx cypress run --env ENV='staging' --browser chrome --headed --spec cypress\\e2e\\UI\\Message\\Messages.cy.js --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nationwide-Appraisal-Network-NAN/nan-test-automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nationwide-Appraisal-Network-NAN/nan-test-automation/issues"
+  },
+  "homepage": "https://github.com/Nationwide-Appraisal-Network-NAN/nan-test-automation#readme",
+  "devDependencies": {
+    "cypress": "^12.14.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-firebase": "^4.0.0",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "cypress-xpath": "^2.0.1",
+    "faker": "^6.6.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "playwright-webkit": "^1.35.1"
+  }
+}
